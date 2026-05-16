@@ -1,0 +1,51 @@
+body{
+    background-color: gray;
+}
+.tabla{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 98%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(237, 240, 243);
+    color: black;
+    border: 6px double purple;
+    text-align:justify;
+    padding: 10px;
+    border-radius: 10px;
+    left: 1.6%;
+    z-index: 1;
+    margin-top: 35px;
+}
+th{
+    border: 1px solid blue;
+}
+td{
+    border: 1px solid blue;
+}
+.fondo{
+    color: brown;
+    background-image: conic-gradient(blue,black,green);
+    background-size: 500% 500%;
+    animation: moverGradiente 3s ease infinite;
+    top: 23px;
+    width: 98%;
+    height: 220px;
+    left: 1.5%;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+@keyframes moverGradiente  {
+    0%{background-position: 0% 50%;
+
+    }
+    50%{background-position: 100% 50%
+
+    }
+    100%{background-position: 0% 50%
+
+    }
+}
+
+
